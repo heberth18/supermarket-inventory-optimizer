@@ -1,0 +1,24 @@
+[project]
+name = "supermarket-inventory-optimizer"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Heberth Caripa",email = "heberthvzla@gmail.com"}
+]
+readme = "README.md"
+requires-python =">=3.12,<3.13"
+dependencies = [
+    "faker (>=37.5.3,<38.0.0)",
+    "notebook (>=7.4.4,<8.0.0)",
+    "ydata-profiling (>=4.16.1,<5.0.0)",
+    "ipywidgets (>=8.1.7,<9.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "supermarket_inventory_optimizer", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

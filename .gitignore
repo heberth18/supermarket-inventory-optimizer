@@ -1,0 +1,49 @@
+# 🔧 AUTO-GENERATED FILES AND FOLDERS
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.log
+
+# VIRTUAL ENVIRONMENTS
+.venv/
+.env/
+env/
+venv/
+
+# TEMPORARY JUPYTER NOTEBOOK FILES
+.ipynb_checkpoints/
+
+# OPERATING SYSTEM FILES
+.DS_Store
+Thumbs.db
+
+# LARGE REPORT FILES
+*.html
+*.pdf
+*.zip
+
+# LARGE DATA FOLDERS
+data/raw/
+data/processed/
+data/output/
+
+# LOCAL CONFIGURATION FILES
+.vscode/settings.json
+.vscode/launch.json
+
+# MODEL FILES OR HEAVY OUTPUTS
+*.pkl
+*.joblib
+*.h5
+
+# POETRY TEMP FILES
+poetry.lock
+
+# DEBUG OR TEMP FILES
+*.bak
+*.tmp
+*.swp
+
+# IDE OR SYSTEM CONFIGURATION FILES
+.idea/
